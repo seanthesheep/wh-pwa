@@ -8,4 +8,4 @@ document.querySelector('#show').addEventListener('click', () => {
   imgElement.src = iconUrl;
   document.querySelector('#container').appendChild(imgElement);
 });
-}();
+});();
