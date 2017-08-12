@@ -18,14 +18,16 @@
 {% block title %}{% parent %} - Homepage{% endblock %}
 
 {% block content %}
-
+<main class="cub-content">
   <div class="row">
-
+    <header class="cub-header">
     <h1>Hello World</a>!</h1>
-
+  </header>
+<div class="cub-card">
     <p>
       My attempt at a progressive web app theme
     </p>
+</div>
 
 
 
@@ -47,7 +49,8 @@
       </ul>
 
     {% endif %}
-
+<div class="cub-fab"></div>
   </div>
+</main>
 
 {% endblock %}
